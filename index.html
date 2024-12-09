@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>A* Pathfinding Visualization</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>A* Pathfinding Visualization</h1>
+
+<div id="grid"></div>
+
+<div id="controls">
+    <button id="setStartButton">Set Start Point</button>
+    <button id="setEndButton">Set End Point</button>
+    <button id="startButton">Start Pathfinding</button>
+    <button id="clearButton">Clear Grid</button>
+    <p>Instructions:</p>
+    <ul>
+        <li>Click on cells to toggle walls. Click and drag to draw multiple walls.</li>
+        <li>Click <strong>Set Start Point</strong> and then click on a cell to set the start point.</li>
+        <li>Click <strong>Set End Point</strong> and then click on a cell to set the end point.</li>
+        <li>Click the <strong>Start Pathfinding</strong> button to begin the algorithm.</li>
+        <li>Click the <strong>Clear Grid</strong> button to reset the grid.</li>
+    </ul>
+</div>
+
+<script src="pathfinding.js"></script>
+
+</body>
+</html>
